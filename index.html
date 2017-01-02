@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WpF BGness : Home page</title>
+    <title>TechDas: Web page</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,14 +18,15 @@
     <!-- slick slider css file -->
     <link href="css/slick.css" rel="stylesheet">
     <!-- website theme color file -->
-    <link id="switcher" href="css/themes/cyan-theme.css" rel="stylesheet">
+    <link id="switcher" href="css/themes/dark-blue-theme.css" rel="stylesheet">
     <!-- main site css file -->
     <link href="style.css" rel="stylesheet">
     <!-- google fonts  -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="img/logo_short.png" type="image/x-icon">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,16 +58,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><span>Tech</span> DAS</a>
+        <!-- <a class="navbar-brand" href="#"><span>Tech</span> DAS</a> -->
+        <a class="navbar-brand" href="#"><img src="img/logo_long.png"></a>
         <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
       </div>
       <div id="navbar" class="navbar-collapse collapse navbar_area">
           <ul class="nav navbar-nav navbar-right custom_nav">
-              <li><a href="#sliderSection">HOME</a></li>
-              <li><a href="#service">Solutions</a></li>
-               <li><a href="#howWorks">Recent Projects</a></li>
-               <li><a href="#ourTeam">Executive Members</a></li>
-               <li><a href="#testimonial">Contact</a></li>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#solutions">Solutions</a></li>
+               <li><a href="#projects">Recent Projects</a></li>
+               <li><a href="#execMembers">Executive Members</a></li>
+               <li><a href="#contacts">Contact</a></li>
           </ul>
       </div>
     </div>
@@ -74,7 +76,7 @@
   <!-- End navbar -->
 
   <!-- start slider section -->
-  <section id="sliderSection">
+  <section id="home">
     <div class="mainslider_area">
       <!-- Start super slider -->
       <div id="slides">
@@ -87,7 +89,6 @@
               <p>미래 저탄소시대에 경쟁력을 갖추기 위해 산업계는 에너지 절약과 온실가스 감축을 위한 지속적인 노력이 필요합니다.</p>
               <p>에너지감축을 위해서는 기기 단위의 교체를 넘어 공정단위의 효율향상이나 관리시스템 개선과 같은 상위단계의 활동이 보다 효과적입니다.</p>
               <p>테크다스는 공정의 최적화, 에너지관리시스템 선진화, 신재생에너지 적용확대 등 에너지 감축을 위한 종합적이고 선진화된 솔루션을 제공합니다.</p>
-              <a class="slider_btn" href="#">Read More</a>
             </div>
           </li>
           <!-- Start single slider-->
@@ -98,7 +99,6 @@
               <p><span>Smart Factory</span>는 개념을 정립하거나 계측기기의 설치하는 것만으로 만들어지지 않습니다.</p>
               <p>생산공정이 <span>Smart</span>해지기 위해서는 <span>Rigorous Simulation</span>을 통한 공정최적화<span>(Process Optimization)</span>가 필수적입니다.</p>
               <p>테크다스는 가상물리시스템<span>(Hyper Physical System)</span>을 기반으로 다양한 최적화 툴을 제공합니다.</p>
-              <a class="slider_btn" href="#">Read More</a>
             </div>
             </li>
           <!-- Start single slider-->
@@ -109,7 +109,6 @@
               <p><공정의 각 기기의 데이터가 적절하게 분석되고 가공되어 <span>ERP</span>와 연결되어 전사적인 정보체계에 통합되어야 합니다.</p>
               <p><span>RTDB</span>에 수집되는 각종 조업 데이터를 바탕으로 다양한 솔루션을 개발하여 공정 최적화에 적용할 수 있습니다.</p>
               <p>테크다스는 정밀한 이론과 현장 적용 경험을 바탕으로 신뢰성 있는 솔루션을 제공합니다</p>
-              <a class="slider_btn" href="#">Read More</a>
             </div>
            </li>
         </ul>
@@ -124,64 +123,39 @@
   <!-- End slider section -->
 
   <!-- Start Service area -->
-  <section id="service">
+  <section id="solutions">
     <div class="container">
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="service_area">
           <div class="service_title">
             <hr>
             <h2>Solutions</h2>
-            <p>4건의 Solutions</p>
           </div>
           <div class="service">
             <ul class="team_nav service_nav wow flipInX">
               <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-users"></i></a>
+                <a class="service_icon" href="#"><i class="fa fa-connectdevelop" aria-hidden="true"></i></a>
                 <h2>유틸리티 최적화 시스템</h2>
                 <p>배출권거래제는 산업계에 대규모의 온실가스 감축을 요구하고 있습니다. 그러나 기존의 에너지 효율화 방식으로는 한계가 있어서, Plant-wide 차원에서 실시간으로 에너지 사용을 최적화하는 고도의 유틸리티 최적화 시스템이 필요합니다.</p>
-                <a class="read_more" href="img/solutions/소개_유틸리티최적화시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
+                <a class="read_more" href="img/solutions/TD_Utop.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
               </li>
              <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-gears"></i></a>
+                <a class="service_icon" href="#"><i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i></a>
                 <h2>프로세스 기술 서비스</h2>
                 <p>플랜트 산업에서 생산 경쟁력을 확보하기 위해서는 공정의 시뮬레이션을 통한 정밀한 최적화 작업이 주기적으로 이루어져야 합니다. 하지만 회사별로 시뮬레이션 전문 인력을 확보하는 것은 쉽지 않을 뿐 아니라 경제적이지 않습니다.</p>
-                <a class="read_more" href="img/solutions/소개_프로세스기술서비스.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
+                <a class="read_more" href="img/solutions/TD_Simulation_Service.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
               </li>
               <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
+                <a class="service_icon" href="#"><i class="fa fa-unlink"></i></a>
                 <h2>플랜트 조기경보 시스템</h2>
                 <p>플랜트 이상, 고장 조기경보 시스템은 더 이상 선택 사항이 아닙니다. 필수입니다. 대형 사고가 한 번 발생하면 기업의 경제적, 사회적 손실은 막대합니다.</p>
-                <a class="read_more" href="img/solutions/소개_플랜트조기경보시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
+                <a class="read_more" href="img/solutions/TD_EWS.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
               </li>
               <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
+                <a class="service_icon" href="#"><i class="fa fa-linode" aria-hidden="true"></i></a>
                 <h2>플랜트 최적화 시스템</h2>
                 <p>상용화 되어있는 실시간 성능 모니터링 시스템에서는 설비들의 효율은 간략한 모델을 통해 구함으로써 정확성이 떨어지고 결과적으로 기회 손실을 발생시킵니다. 고가의 비용을 지불하고 여러 플랜트에서 적용되고 있는 해외 기술의 한게입니다.</p>
-                <a class="read_more" href="img/solutions/소개_플랜트최적화시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
-              </li>
-              <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
-                <h2>플랜트 최적화 시스템</h2>
-                <p>상용화 되어있는 실시간 성능 모니터링 시스템에서는 설비들의 효율은 간략한 모델을 통해 구함으로써 정확성이 떨어지고 결과적으로 기회 손실을 발생시킵니다. 고가의 비용을 지불하고 여러 플랜트에서 적용되고 있는 해외 기술의 한게입니다.</p>
-                <a class="read_more" href="img/solutions/소개_플랜트최적화시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
-              </li>
-              <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
-                <h2>플랜트 최적화 시스템</h2>
-                <p>상용화 되어있는 실시간 성능 모니터링 시스템에서는 설비들의 효율은 간략한 모델을 통해 구함으로써 정확성이 떨어지고 결과적으로 기회 손실을 발생시킵니다. 고가의 비용을 지불하고 여러 플랜트에서 적용되고 있는 해외 기술의 한게입니다.</p>
-                <a class="read_more" href="img/solutions/소개_플랜트최적화시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
-              </li>
-              <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
-                <h2>플랜트 최적화 시스템</h2>
-                <p>상용화 되어있는 실시간 성능 모니터링 시스템에서는 설비들의 효율은 간략한 모델을 통해 구함으로써 정확성이 떨어지고 결과적으로 기회 손실을 발생시킵니다. 고가의 비용을 지불하고 여러 플랜트에서 적용되고 있는 해외 기술의 한게입니다.</p>
-                <a class="read_more" href="img/solutions/소개_플랜트최적화시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
-              </li>
-              <li class="service_li">
-                <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
-                <h2>플랜트 최적화 시스템</h2>
-                <p>상용화 되어있는 실시간 성능 모니터링 시스템에서는 설비들의 효율은 간략한 모델을 통해 구함으로써 정확성이 떨어지고 결과적으로 기회 손실을 발생시킵니다. 고가의 비용을 지불하고 여러 플랜트에서 적용되고 있는 해외 기술의 한게입니다.</p>
-                <a class="read_more" href="img/solutions/소개_플랜트최적화시스템.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
+                <a class="read_more" href="img/solutions/TD_PTop.pdf">read more<i class="fa fa-long-arrow-right"></i></a>
               </li>
             </ul>
           </div>
@@ -192,7 +166,7 @@
   <!-- End Service area -->
 
   <!-- start How it works area -->
-  <section id="howWorks">
+  <section id="projects">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -202,15 +176,28 @@
               <h2>Recent Projects</h2>
             </div>
             <!-- Start Single Project -->
+            <!-- <div class="projects_content">
+              <div class="projects_img wow fadeInLeftBig">
+                <img src="img/projects/energy.jpg" alt="img"></a>
+              </div>
+              <div class="projects_text wow fadeInRightBig">
+                  <h4>S사 에너지 신사업 추진전략 수립 컨설팅</h4>
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <p>에너지산업의 국내외 현황분석과 미래 전망</p>
+                  <p>에너지산업 분야별 분석 및 접근 방안</p>
+                  <p>에너지 신산업 진출 전략 수립</p>
+              </div>
+            </div> -->
             <div class="row">
               <div class="col-lg-5 col-md-5 col-sm-6">
                 <div class="howworks_slider wow fadeInLeftBig">
-                    <div class="single_iteam">
-                      <a href="single_page.html"> <img src="img/projects/energy.jpg" alt="img"></a>
-                    </div>
+                  <div class="single_iteam">
+                    <img src="img/projects/energy.jpg" alt="img"></a>
+                  </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-6">
+              <div class="col-lg-5 col-md-5 col-sm-6">
                 <div class="howworks_featured wow fadeInRightBig">
                   <div class="single_iteam">
                     <h4>S사 에너지 신사업 추진전략 수립 컨설팅</h4>
@@ -219,7 +206,6 @@
                     <p>에너지산업의 국내외 현황분석과 미래 전망</p>
                     <p>에너지산업 분야별 분석 및 접근 방안</p>
                     <p>에너지 신산업 진출 전략 수립</p>
-                    <a class="featured_btn" href="#">Read More</a>
                   </div>
                 </div>
               </div>
@@ -228,7 +214,14 @@
             <!-- Start Single Project -->
             <div class="row">
               <div class="col-lg-5 col-md-5 col-sm-6">
-                <div class="howworks_slider wow fadeInRightBig">
+                <div class="howworks_slider wow fadeInLeftBig">
+                    <div class="single_iteam">
+                      <img src="img/projects/chemical_equipment.jpg" alt="img"></a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-6">
+                <div class="howworks_featured wow fadeInRightBig">
                   <div class="single_iteam">
                     <h4>K사 공정최적화 시스템 구축</h4>
                     <hr class="section-heading-spacer">
@@ -236,15 +229,7 @@
                     <p>에너지산업의 국내외 현황분석과 미래 전망</p>
                     <p>에너지산업 분야별 분석 및 접근 방안</p>
                     <p>에너지 신산업 진출 전략 수립</p>
-                    <a class="featured_btn" href="#">Read More</a>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-6">
-                <div class="howworks_featured wow fadeInLeftBig">
-                    <div class="single_iteam">
-                      <a href="single_page.html"> <img src="img/projects/chemical_equipment.jpg" alt="img"></a>
-                    </div>
                 </div>
               </div>
             </div>
@@ -258,7 +243,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-6">
+              <div class="col-lg-5 col-md-5 col-sm-6">
                 <div class="howworks_featured wow fadeInRightBig">
                   <div class="single_iteam">
                     <h4>P발전소(베트남) 운전감시 시스템 구축</h4>
@@ -267,7 +252,6 @@
                     <p>에너지산업의 국내외 현황분석과 미래 전망</p>
                     <p>에너지산업 분야별 분석 및 접근 방안</p>
                     <p>에너지 신산업 진출 전략 수립</p>
-                    <a class="featured_btn" href="#">Read More</a>
                   </div>
                 </div>
               </div>
@@ -281,7 +265,7 @@
   <!-- End How it works area -->
 
   <!-- start Our Team area -->
-  <section id="ourTeam">
+  <section id="execMembers">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -299,36 +283,23 @@
                   </div>
                   <div class="team_content">
                     <h4>고홍철</h4>
-                    <p>Co-CEO</p>
+                    <p>Co-CEO / CTO</p>
                   </div>
                   <div class="team_social">
                     <a href="#"><span class="fa fa-facebook"></span></a>
                     <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <!-- <a href="#"><span class="fa fa-pied-piper" aria-hidden="true"></span></a> -->
-                    <a class="blog" href="#"><span class="fa"><img src="img/nblog.jpeg" /></span></a>
+                    <a href="mailto:kohc@techdas.co.kr"><span class="fa fa-envelope"></span></a>
+                    <a class="blog" href="http://m.blog.naver.com/PostList.nhn?blogId=hck3417"><span class="fa"><img src="img/nblog.jpeg" /></span></a>
                   </div>
                 </li>
-                <li>
+                <li class="member_content">
                   <div class="team_content">
-                    <ul>
-                      <li>화학공학 박사</li>
-                      <li>Specialized In
-                        <ul>
-                          <li>Rigorous Simulation</li>
-                          <li>Process Optimization</li>
-                          <li>Data Reconciliation</li>
-                          <li>Big Data Application</li>
-                        </ul>
-                      </li>
-                      <li>Experiences
-                        <ul>
-                          <li>석유화학산업체 20년 근무</li>
-                          <li>컨설팅업체: 3년 근무</li>
-                        </ul>
-                      </li>
-
-                    </ul>
+                    <p>화학공학 박사</p>
+                    <p>Specialized In<p>
+                    <p>Rigorous Simulation</p>
+                    <p>Process Optimization</p>
+                    <p>Data Reconciliation</p>
+                    <p>Big Data Application</p>
                   </div>
                 </li>
                 <li>
@@ -337,13 +308,23 @@
                   </div>
                   <div class="team_content">
                     <h4>은종환</h4>
-                    <p>Co-CEO</p>
+                    <p>Co-CEO / COO</p>
                   </div>
                   <div class="team_social">
                     <a href="#"><span class="fa fa-facebook"></span></a>
                     <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a class="blog" href="#"><span class="fa"><img src="img/gblog.svg" /></span></a>
+                    <a href="mailto:eunjh@techdas.co.kr"><span class="fa fa-envelope"></span></a>
+                    <a class="blog" href="http://twowaterhead.blogspot.kr/"><span class="fa"><img src="img/gblog.svg" /></span></a>
+                  </div>
+                </li>
+                <li class="member_content">
+                  <div class="team_content">
+                    <p>환경공학박사</p>
+                    <p>Specialized In<p>
+                    <p>Environmental/<br />Energy Information System</p>
+                    <p>New Energy Business</p>
+                    <p>Renewable Energy</p>
+                    <p>Climate Change Issue</p>
                   </div>
                 </li>
               </ul>
@@ -367,8 +348,8 @@
   </section>
   <!-- End special quote -->
 
-  <!-- start client testimonial -->
-  <section id="testimonial">
+  <!-- start client contacts -->
+  <section id="contacts">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -380,7 +361,7 @@
             <div style="text-align:center" class="contact_content">
               <p>대표전화: 02-865-1313</p>
               <p>fax: 02-6111-0900</p>
-              <p>대표 이메일: songmr@techdas.co.kr</p>
+              <p>대표 이메일: <a href="mailto:songmr@techdas.co.kr">songmr@techdas.co.kr</a></p>
               <p>Address: 서울특별시 금천구 디지털로9길 68 대륭포스트타워 5차  807호 (우편번호: 08512)</p>
             </div>
             <div class="contact_map">
@@ -415,43 +396,7 @@
                 infowindow.open(map, marker);
 
             	</script>
-              <!-- map_canvas -->
             </div>
-            <!-- <ul class="testimon_nav">
-              <li>
-               <div class="testimonial_content">
-                  <blockquote>
-                    <p>Perfect has been one of our most valued discoveries! The exceptional service offered by the team is second to none; the finished product is delivered perfectly, with remarkably quick turnaround, every time. It is a service we can (& do!) rely on and recommend to all that we meet.</p>
-                  <small>Jacquie Ward, Love Movement</small>
-                  </blockquote>
-                  <div class="client_img">
-                    <img src="img/leify.png" alt="img">
-                  </div>
-               </div>
-              </li>
-             <li>
-               <div class="testimonial_content">
-                  <blockquote>
-                    <p>Perfect has been one of our most valued discoveries! The exceptional service offered by the team is second to none; the finished product is delivered perfectly, every time. It is a service we can (& do!) rely on and recommend to all that we meet.</p>
-                  <small>Jacquie Ward, Love Movement</small>
-                  </blockquote>
-                  <div class="client_img">
-                    <img src="img/leify.png" alt="img">
-                  </div>
-               </div>
-              </li>
-              <li>
-               <div class="testimonial_content">
-                  <blockquote>
-                    <p>Perfect has been one of our most valued discoveries! The exceptional service offered by the team is second to none; the finished product is delivered perfectly, with remarkably quick turnaround, every time. It is a service we can (& do!) rely on and recommend to all that we meet.</p>
-                  <small>Jacquie Ward, Love Movement</small>
-                  </blockquote>
-                  <div class="client_img">
-                    <img src="img/leify.png" alt="img">
-                  </div>
-               </div>
-              </li>
-            </ul> -->
           </div>
         </div>
       </div>
@@ -464,70 +409,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="footer_top">
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="single_footer_top">
-                  <h2>Footer Widget </h2>
-                  <ul>
-                    <li><a href="#">Lorem Ipsum is simply dummy text of the printing</a></li>
-                    <li><a href="#">Dummy text of the printing</a></li>
-                    <li><a href="#">There are many variations of passages</a></li>
-                    <li><a href="#">Lorem Ipsum available</a></li>
-                    <li><a href="#">Lorem Ipsum is not simply random text</a></li>
-                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
-                    <li><a href="#">Dummy text of the printing</a></li>
-                    <li><a href="#">There are many variations of passages</a></li>
-                    <li><a href="#">Lorem Ipsum available</a></li>
-                    <li><a href="#">Lorem Ipsum is not simply random text</a></li>
-                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="single_footer_top">
-                  <h2>Wpf Bgness</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                </div>
-                <div class="single_footer_top contact_mail">
-                  <h2>Contact us</h2>
-                  <p>We are always open for a quick chat! Give us a call or email us any time and we will respond shortly. <span>+1 888-522-0212</span> or <a href="#">SupportUS@yourdomain.com</a></p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="single_footer_top">
-                  <h2>Links </h2>
-                  <ul>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="archive-blog.html">Blog</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="testimonial-archive.html">Testimonial Archive</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Developer API</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                  </ul>
-                </div>
-                <div class="single_footer_top">
-                  <h2>Social Links </h2>
-                  <ul class="social_nav">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="footer_bottom">
             <div class="copyright">
-              <p>All right reserved </p>
-            </div>
-            <div class="developer">
-              <p>Designed By <a href="http://wpfreeware.com/" rel="nofollow">Wpfreeware</a></p>
+              <p>All right reserved by TechDas</p>
             </div>
           </div>
         </div>
